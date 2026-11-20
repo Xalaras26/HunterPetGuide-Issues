@@ -1,0 +1,23 @@
+name: Idea
+description: Suggest a new feature or a change to Hunter Pet Guide.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like the guide to do?
+      placeholder: Show which zones have rare pets near my level.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: When would you use it?
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or examples
+      description: Optional - drag images here.
