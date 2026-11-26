@@ -1,13 +1,22 @@
-name: "Hunter Pet Guide: Idea"
-description: Suggest a new feature or a change to Hunter Pet Guide.
-title: "[Hunter Pet Guide] [Idea] "
-labels: ["idea", "Hunter Pet Guide"]
+name: Idea
+description: Suggest a new feature or a change to one of my addons.
+title: "[Idea] "
+labels: ["idea"]
 body:
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Which addon?
+      options:
+        - Hunter Pet Guide
+        - Unlock & Loot
+    validations:
+      required: true
   - type: textarea
     id: idea
     attributes:
       label: Your idea
-      description: What would you like the guide to do?
+      description: What would you like the addon to do?
       placeholder: Show which zones have rare pets near my level.
     validations:
       required: true

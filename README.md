@@ -9,7 +9,7 @@ This is where you can report problems with my WoW Forever addons, or suggest new
 
 1. Open the **Issues** tab above.
 2. Click **New issue**.
-3. Pick your addon and **Bug report** or **Idea**, then fill in the form.
+3. Pick **Bug report** or **Idea**, choose your addon, then fill in the form.
 
 Screenshots help a lot - you can drag them straight into the form.
 

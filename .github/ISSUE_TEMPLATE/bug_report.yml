@@ -1,32 +1,41 @@
-name: "Hunter Pet Guide: Bug report"
-description: Something in Hunter Pet Guide doesn't work or shows something wrong.
-title: "[Hunter Pet Guide] [Bug] "
-labels: ["bug", "Hunter Pet Guide"]
+name: Bug report
+description: Something in one of my addons doesn't work or shows something wrong.
+title: "[Bug] "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for reporting! The more details, the faster it gets fixed.
+  - type: dropdown
+    id: addon
+    attributes:
+      label: Which addon?
+      options:
+        - Hunter Pet Guide
+        - Unlock & Loot
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
       label: Addon version
-      description: Shown in the guide's bottom-left corner.
-      placeholder: v2.18.5
+      description: Shown in the AddOn List (Esc > AddOns), or in the guide's bottom-left corner.
+      placeholder: 1.0.0
     validations:
       required: true
   - type: input
     id: character
     attributes:
       label: Your character
-      description: Race, level, and your pet's family and level.
-      placeholder: Orc level 11, Boar level 8
+      description: "Race/class and level. Hunters: your pet's family and level. Rogues: your Lockpicking skill."
+      placeholder: Orc hunter level 11, Boar level 8
     validations:
       required: true
   - type: dropdown
     id: path
     attributes:
-      label: Guide path
+      label: Guide path (Hunter Pet Guide only)
       options:
         - Custom
         - Leveling
@@ -34,14 +43,12 @@ body:
         - PvP
         - Skill hunt
         - Not chosen yet
-    validations:
-      required: true
   - type: input
     id: step
     attributes:
-      label: Which step?
-      description: The step name, if it's about a step.
-      placeholder: "Skill upgrades (pet lvl 8)"
+      label: Which step or box?
+      description: "Hunter Pet Guide: the step name. Unlock & Loot: the lockbox name."
+      placeholder: "Skill upgrades (pet lvl 8) / Steel Lockbox"
   - type: textarea
     id: what
     attributes:
@@ -63,7 +70,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshots
-      description: Drag images here. Screenshots of the guide, the arrow or a Lua error help a lot.
+      description: Drag images here. Screenshots of the addon window or a Lua error help a lot.
   - type: textarea
     id: errors
     attributes:
