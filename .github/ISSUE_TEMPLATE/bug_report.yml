@@ -12,8 +12,8 @@ body:
     attributes:
       label: Which addon?
       options:
-        - Hunter Pet Guide
-        - Unlock & Loot
+        - Hunter Pet Guide (WoW Forever)
+        - Unlock & Loot (WoW Forever)
     validations:
       required: true
   - type: input
