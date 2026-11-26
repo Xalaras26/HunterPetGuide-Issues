@@ -1,7 +1,7 @@
-name: Idea
+name: "Hunter Pet Guide: Idea"
 description: Suggest a new feature or a change to Hunter Pet Guide.
-title: "[Idea] "
-labels: ["idea"]
+title: "[Hunter Pet Guide] [Idea] "
+labels: ["idea", "Hunter Pet Guide"]
 body:
   - type: textarea
     id: idea

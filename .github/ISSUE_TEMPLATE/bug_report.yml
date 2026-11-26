@@ -1,7 +1,7 @@
-name: Bug report
+name: "Hunter Pet Guide: Bug report"
 description: Something in Hunter Pet Guide doesn't work or shows something wrong.
-title: "[Bug] "
-labels: ["bug"]
+title: "[Hunter Pet Guide] [Bug] "
+labels: ["bug", "Hunter Pet Guide"]
 body:
   - type: markdown
     attributes:
