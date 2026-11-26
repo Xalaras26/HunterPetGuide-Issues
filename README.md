@@ -3,7 +3,7 @@
 This is where you can report problems with my WoW Forever addons, or suggest new ideas:
 
 - **Hunter Pet Guide** - hunter pet guide: https://www.curseforge.com/wow/addons/hunter-pet-guide
-- **Unlock & Loot** - one click per lockbox for rogues
+- **Rogue's Toolkit** - rogue helpers (lockboxes and more)
 
 ## Report a bug or share an idea
 

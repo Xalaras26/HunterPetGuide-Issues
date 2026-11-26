@@ -9,7 +9,7 @@ body:
       label: Which addon?
       options:
         - Hunter Pet Guide (WoW Forever)
-        - Unlock & Loot (WoW Forever)
+        - Rogue's Toolkit (WoW Forever)
     validations:
       required: true
   - type: textarea
